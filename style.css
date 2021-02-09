@@ -1,0 +1,43 @@
+/* rgb(51, 253, 109)*/
+/* border: 10px groove  rgb(51, 253, 109); */
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+body{
+	background-repeat: repeat;
+	background-image: url("Stars.png");
+	background-color: rgb(10, 10, 20);
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+#tekst {
+	padding: 30px;
+}
+
+#tekst p{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 600px;
+}
+
+@media screen and (min-width: 600px){
+	img{
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 599px){
+	img{
+		width: 100%;
+	}
+}
